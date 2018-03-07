@@ -2,6 +2,8 @@ import moment from 'moment';
 import AirQualityRecord from './models/AirQualityRecord';
 import ExposomicsLocationManager from '../../../utils/ExposomicsLocationManager';
 import ExposomicsData from '../../../utils/ExposomicsData';
+
+const county_scores = require('./county_scores.json');
 // const AqiExposomics = require('./ExposomicsManager')
 
 /**
@@ -123,11 +125,34 @@ export default (async function controller(places) {
   // await dataObject.populateDataList(); // This needs to be a seperate call because it's an async function
   // and can't be done in the constructor of ExposomicsData
 
+  const bestCountyLogic = function(locationManager) {
+    let curMin = 100000;
+    let curState;
+    let curCounty;
+    for (const locationObject of locationManager.locationObjects) {
+      const county = locationObject.location.getCounty().replace(' County', '');
+      // console.log(county)
+      const state = locationObject.location.getState();
+      const score = county_scores[state][county];
+
+      if (score < curMin) {
+        curState = state;
+        curCounty = county;
+        curMin = score;
+      }
+    }
+    // console.log(curState, curCounty, curMin)
+    return curCounty;
+  };
+
+  const bestCounty = bestCountyLogic(locationManager);
+  console.log('best county: ', bestCounty);
   // Return results in the form that the React component is expecting.
   const result = {
     dataList: dataObject.dataList,
     startDate,
     endDate,
+    bestCounty,
   };
   return result;
 });
