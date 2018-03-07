@@ -1,0 +1,17 @@
+[ignore]
+.*/node_modules/config-chain/.*
+.*/node_modules/npmconf/.*
+
+[include]
+../flowtype
+
+[libs]
+
+[lints]
+all=warn
+
+[options]
+module.file_ext=.js
+module.file_ext=.scss
+
+[strict]

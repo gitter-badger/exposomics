@@ -1,0 +1,23 @@
+{
+  "name": "@doc.ai/exposomics-proxy",
+  "version": "1.0.0",
+  "description": "Discover things you are exposed to",
+  "main": "index.js",
+  "repository": "git@github.com:doc-ai/exposomics.git",
+  "author": "doc.ai Team <dev@doc.ai>",
+  "license": "GPL-3.0",
+  "contributors": [
+    {
+      "name": "@doc.ai/exposomics contributors",
+      "url": "https://github.com/doc-ai/exposomics/graphs/contributors"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "http-proxy-rules": "^1.1.1"
+  }
+}

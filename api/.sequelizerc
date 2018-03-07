@@ -1,0 +1,10 @@
+const path = require('path');
+
+const DB_PATH = path.resolve(__dirname, process.env.API_DB_ROOT || 'src/db');
+
+module.exports = {
+  config: path.join(DB_PATH, 'dbConfig.js'),
+  'migrations-path': path.join(DB_PATH, 'migrations'),
+  'models-path': path.join(DB_PATH, 'models'),
+  'seeders-path': path.join(DB_PATH, 'seeders'),
+};

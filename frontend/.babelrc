@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "next/babel",
+    "stage-0",
+    "flow"
+  ],
+  "plugins": [
+    [
+      "transform-define",
+      "./env.config.js"
+    ]
+  ]
+}

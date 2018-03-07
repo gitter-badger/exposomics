@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/config-chain/.*
+
+[include]
+../flowtype
+
+[libs]
+
+[lints]
+all=warn
+
+[options]
+module.ignore_non_literal_requires=true
+
+[strict]

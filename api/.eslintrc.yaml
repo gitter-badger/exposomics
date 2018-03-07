@@ -1,0 +1,22 @@
+root: true
+parser: babel-eslint
+extends:
+  - airbnb-base
+  - plugin:flowtype/recommended
+  - prettier
+plugins:
+  - flowtype
+settings:
+  flowtype:
+    onlyFilesWithFlowAnnotation: false
+  env:
+    node: true
+rules:
+  flowtype/require-valid-file-annotation: [2, "always"]
+  no-restricted-syntax: 0
+  no-console: 0
+  no-continue: 0
+  no-await-in-loop: 0
+  import/no-extraneous-dependencies: 0
+  no-param-reassign: 0
+  import/prefer-default-export: 0

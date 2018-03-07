@@ -57,8 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
-# NextJS
-.next
+# Common
+common/lib
 
-www/
-db/
+# Backend
+api/build
+
+# Frontend
+frontend/.next

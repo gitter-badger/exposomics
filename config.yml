@@ -1,4 +1,0 @@
-port: 3000
-publicUrl: https://exposomics.doc.ai
-googleMapsApiKey: SPECIFY_REAL_KEY_IN_ENV
-mongo: mongodb://localhost:27017/exposomics

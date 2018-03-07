@@ -1,0 +1,24 @@
+root: true
+parser: babel-eslint
+extends:
+  - airbnb
+  - plugin:flowtype/recommended
+  - prettier
+plugins:
+  - flowtype
+settings:
+  flowtype:
+    onlyFilesWithFlowAnnotation: false
+  env:
+    browser: true
+rules:
+  flowtype/require-valid-file-annotation: [2, "always"]
+  import/no-extraneous-dependencies: 0
+  import/prefer-default-export: 0
+  no-param-reassign: 0
+  no-underscore-dangle: 0
+  react/jsx-filename-extension: 0
+  react/prefer-stateless-function: 0
+  prefer-destructuring: 0
+  no-restricted-syntax: 0
+  no-await-in-loop: 0
