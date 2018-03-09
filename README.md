@@ -9,6 +9,8 @@ This is a huge endeavor with a massive opportunity to **understand factors that 
 
 We’re inviting the community to design microapps and write extensions to the [doc.ai](https://doc.ai/) exposomic module. Along with great prizes in $NRN (Neuron Tokens) the best extensions will be integrated into the [doc.ai](https://doc.ai/) solution that performs deep learning computations to improve health outcomes and accelerate scientific research.
 
+## We are opening to Developers! Don't miss our first DevOps meeting led by our team and Jeremy Howard in San Francisco on March 21st. More and registrations here: https://medium.com/@_doc_ai/were-opening-to-developers-9554015b3684
+
 **Make your mark, it's happening now**
 ## [REGISTER HERE!](https://goo.gl/forms/nz7YyYDi4mnir2At2)
 
