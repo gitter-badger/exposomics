@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": "git@github.com:doc-ai/exposomics.git",
   "author": "doc.ai Team <dev@doc.ai>",
-  "license": "GPL-3.0",
+  "license": "Apache-2.0",
   "contributors": [
     {
       "name": "@doc.ai/exposomics contributors",
