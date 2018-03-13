@@ -1,5 +1,7 @@
 # **“JOIN THE EXPOSOMICS CHALLENGE”**
 
+[![Join the chat at https://gitter.im/doc-ai/exposomics](https://badges.gitter.im/doc-ai/exposomics.svg)](https://gitter.im/doc-ai/exposomics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/doc-ai/exposomics.svg?branch=master)](https://travis-ci.org/doc-ai/exposomics)
 [![Greenkeeper badge](https://badges.greenkeeper.io/doc-ai/exposomics.svg)](https://greenkeeper.io/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
